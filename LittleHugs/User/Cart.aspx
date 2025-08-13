@@ -33,7 +33,7 @@
                     </thead>
                     <tbody class="align-middle">
                         <tr>
-                            <td class="align-middle"><img src="img/product-1.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                            <td class="align-middle"><img src="../UserTemplate/img/product-1.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
                             <td class="align-middle">$150</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
@@ -54,7 +54,7 @@
                             <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-2.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                            <td class="align-middle"><img src="../UserTemplate/img/product-2.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
                             <td class="align-middle">$150</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
@@ -75,7 +75,7 @@
                             <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-3.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                            <td class="align-middle"><img src="../UserTemplate/img/product-3.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
                             <td class="align-middle">$150</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
@@ -96,7 +96,7 @@
                             <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-4.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                            <td class="align-middle"><img src="../UserTemplate/img/product-4.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
                             <td class="align-middle">$150</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
@@ -117,7 +117,7 @@
                             <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
                         </tr>
                         <tr>
-                            <td class="align-middle"><img src="img/product-5.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
+                            <td class="align-middle"><img src="../UserTemplate/img/product-5.jpg" alt="" style="width: 50px;"> Colorful Stylish Shirt</td>
                             <td class="align-middle">$150</td>
                             <td class="align-middle">
                                 <div class="input-group quantity mx-auto" style="width: 100px;">
