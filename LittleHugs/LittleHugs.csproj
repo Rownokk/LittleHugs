@@ -114,6 +114,8 @@
     <Content Include="UserTemplate\mail\contact.js" />
     <Content Include="UserTemplate\mail\jqBootstrapValidation.min.js" />
     <Content Include="User\Default.aspx" />
+    <Content Include="User\Shop.aspx" />
+    <Content Include="User\ShopDetail.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +129,20 @@
     </Compile>
     <Compile Include="User\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Shop.aspx.designer.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ShopDetail.aspx.cs">
+      <DependentUpon>ShopDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ShopDetail.aspx.designer.cs">
+      <DependentUpon>ShopDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
