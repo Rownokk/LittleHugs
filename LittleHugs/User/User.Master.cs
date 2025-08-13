@@ -11,7 +11,12 @@ namespace LittleHugs.User
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Request.Url.AbsoluteUri.ToString().Contains("Default.aspx"))
+            {
+                //Load The Control
+                Control sliderUserControl = (Control)Page.LoadControl("SliderUserControl.ascx");
+                pnlSliderUC.Controls.Add(sliderUserControl);                                      
+            }
         }
     }
 }
