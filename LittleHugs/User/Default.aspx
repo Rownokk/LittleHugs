@@ -43,7 +43,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="../UserTemplate/img/cat-1.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Men's dresses</h5>
+                    <h5 class="font-weight-semi-bold m-0">Mom’s Wear</h5>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-1">
@@ -52,7 +52,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="../UserTemplate/img/cat-2.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Women's dresses</h5>
+                    <h5 class="font-weight-semi-bold m-0">Mom's Accessories</h5>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-1">
@@ -70,7 +70,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="../UserTemplate/img/cat-4.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Accerssories</h5>
+                    <h5 class="font-weight-semi-bold m-0">Baby Accessories</h5>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-1">
@@ -79,7 +79,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="../UserTemplate/img/cat-5.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Bags</h5>
+                    <h5 class="font-weight-semi-bold m-0">Diaper Bags & Mom’s Bags</h5>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 pb-1">
@@ -88,7 +88,7 @@
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="../UserTemplate/img/cat-6.jpg" alt="">
                     </a>
-                    <h5 class="font-weight-semi-bold m-0">Shoes</h5>
+                    <h5 class="font-weight-semi-bold m-0">Tiny Steps (Baby Shoes)</h5>
                 </div>
             </div>
         </div>
