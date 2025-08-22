@@ -620,6 +620,7 @@
     <Content Include="AdminTemplate\docs\highlights\highlight.min.css" />
     <Content Include="AdminTemplate\docs\highlights\highlight.min.js" />
     <Content Include="AdminTemplate\src\counter.txt" />
+    <Content Include="Admin\Contact.aspx" />
     <Content Include="Admin\Dashboard.aspx" />
     <Content Include="Global.asax" />
     <Content Include="UserTemplate\css\style.css" />
@@ -682,6 +683,13 @@
     </Compile>
     <Compile Include="Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
