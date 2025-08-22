@@ -2,17 +2,14 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
  <style>
- .related-carousel .product-item .product-img img {
-    width: 100%;
-    height: 200%;      
-  
-}
- .related-carousel .product-item {
-    display: flex;
+.related-carousel .product-item .product-img img { 
+    width: 100%; 
+    height: 200%; } 
+.related-carousel .product-item {
+    display: flex; 
     flex-direction: column;
-    justify-content: space-between;
-    height: 700px; 
-}
+    justify-content: space-between; 
+    height: 700px; }
 
 
 

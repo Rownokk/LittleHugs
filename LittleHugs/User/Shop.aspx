@@ -1,5 +1,21 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/User.Master" AutoEventWireup="true" CodeBehind="Shop.aspx.cs" Inherits="LittleHugs.User.Shop" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style>
+          
+       .product-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 700px; 
+        }
+
+       
+        .product-item .product-img {
+            height: 1000px; 
+            overflow: hidden;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
