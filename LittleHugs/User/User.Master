@@ -22,12 +22,27 @@
 
     <!-- Libraries Stylesheet -->
     <link href="../UserTemplate/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="../UserTemplate/css/style.css" rel="stylesheet">
+    <script>
+        $(function () {
+            //this will get the full url at the address bar
+            var url = window.location.href;
+            //passes on every "a" tag
+            $("#navbarCollapse").each(function () {
+                //vhecks if its the same on the address bar
+                if (url == (this.href)) {
+                    $(this).addClass("active");
+                }
+            });
+        });
+    </script>
     
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -110,7 +125,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="Default.aspx" class="nav-item nav-link active">Home</a>
+                            <a href="Default.aspx" class="nav-item nav-link ">Home</a>
                             <a href="Shop.aspx" class="nav-item nav-link">Shop</a>
                             <a href="ShopDetail.aspx" class="nav-item nav-link">Shop Detail</a>
                             <div class="nav-item dropdown">
