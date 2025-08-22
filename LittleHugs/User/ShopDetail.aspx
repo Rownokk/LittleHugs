@@ -1,5 +1,23 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/User.Master" AutoEventWireup="true" CodeBehind="ShopDetail.aspx.cs" Inherits="LittleHugs.User.ShopDetail" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+ <style>
+ .related-carousel .product-item .product-img img {
+    width: 100%;
+    height: 200%;      
+  
+}
+ .related-carousel .product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px; 
+}
+
+
+
+
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
