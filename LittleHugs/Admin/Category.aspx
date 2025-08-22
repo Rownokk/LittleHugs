@@ -44,6 +44,12 @@
          </div>
      </div>
  </div>
+                        <div class="row">
+                              <div class="col-md-12">
+                                 <div class="form-group">
+                                     <asp:CheckBox ID="cbIsActive" runat="server" Text="&nbsp; ÏsActive"/>
+                                 </div>
+                        </div>
 
                     </div>
                 </div>
@@ -61,4 +67,4 @@
             </div>
         </div>
     </div>
-</asp:Content>
+</asp:Content>
