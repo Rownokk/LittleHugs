@@ -51,7 +51,13 @@
          </div>
      </div>
  </div>
-                        
+                        <label for="txtCategoryName">Category Image Preview</label>
+<div class="row mb-3">
+    <div class="col-md-12">
+        <asp:Image ID="imagePreview" runat="server" Width="150px" Height="150px" />
+    </div>
+</div>
+
 
                         <div class="row">
                               <div class="col-md-12">

@@ -20,6 +20,7 @@ namespace LittleHugs.Admin
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            lblMsg.Visible = false;
 
         }
         protected void btnAddOrUpdate_Click(object sender, EventArgs e)
@@ -42,12 +43,14 @@ namespace LittleHugs.Admin
                     imagePath = "Images/Category/" + newImageName.ToString() +fileExtension;
                     fuCategoryImage.PostedFile.SaveAs(Server.MapPath("~/Images/Category/") + newImageName.ToString()+ fileExtension);
                     cmd.Parameters.AddWithValue("@CategoryImageUrl", imagePath);
+                    isValidToExecute = true;
                 }
                 else
                 {
                     lblMsg.Visible = false;
                     lblMsg.Text = "Please select .jpg, .jpeg, .png image";
                     lblMsg.CssClass = "alert alert-danger";
+                    isValidToExecute = false;
                 }     
             }
             else
@@ -61,7 +64,7 @@ namespace LittleHugs.Admin
                 {
                     con.Open();
                     cmd.ExecuteNonQuery();
-                    actionName = categoryId == 0 ? "inserted" : "Successfull";
+                    actionName = categoryId == 0 ? "inserted" : "updated";
                     lblMsg.Visible = true;
                     lblMsg.Text = "Category" + actionName + "succesfully!";
                     lblMsg.CssClass = "alert alert-success";
@@ -89,7 +92,7 @@ namespace LittleHugs.Admin
             cbIsActive.Checked = false;
             hfCategoryId.Value = "0";
             btnAddOrUpdate.Text = "Add";
-           
+            imagePreview.ImageUrl = string.Empty;
 
         }
 
