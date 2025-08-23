@@ -1,9 +1,16 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="Category.aspx.cs" Inherits="LittleHugs.Admin.Category" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="mb-4">
+        <asp:Label ID ="lblMsg" runat ="server"></asp:Label>
+
+    </div>
+
     <div class="row">
         <!-- Category Name Input -->
         <div class="col-sm-12 col-md-4">
@@ -39,11 +46,13 @@
  <div class="row">
      <div class="col-md-12">
          <div class="form-group">
-             <asp:FileUpload ID="fucategoryImage" runat="server" CssClass="form-control"/>
-           
+             <asp:FileUpload ID="fuCategoryImage" runat="server" CssClass="form-control"/>
+           <asp:HiddenField ID ="hfCategoryId" runat ="server" Value="0" />
          </div>
      </div>
  </div>
+                        
+
                         <div class="row">
                               <div class="col-md-12">
                                  <div class="form-group">

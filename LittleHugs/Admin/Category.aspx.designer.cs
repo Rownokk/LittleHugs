@@ -15,6 +15,15 @@ namespace LittleHugs.Admin
     {
 
         /// <summary>
+        /// lblMsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMsg;
+
+        /// <summary>
         /// txtCategoryName control.
         /// </summary>
         /// <remarks>
@@ -33,13 +42,22 @@ namespace LittleHugs.Admin
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCategoryName;
 
         /// <summary>
-        /// fucategoryImage control.
+        /// fuCategoryImage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload fucategoryImage;
+        protected global::System.Web.UI.WebControls.FileUpload fuCategoryImage;
+
+        /// <summary>
+        /// hfCategoryId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hfCategoryId;
 
         /// <summary>
         /// cbIsActive control.
