@@ -17,6 +17,12 @@
             height: 100%;
             object-fit: cover;
         }
+        .vendor-item img {
+           width: 100%;        /* makes the image fill the container */
+           height: 150px;      /* fix the height (adjust as you like: 120px, 150px, 200px) */
+           object-fit: contain; /* keep aspect ratio, no stretching */
+}
+
 
     </style>
 </asp:Content>
