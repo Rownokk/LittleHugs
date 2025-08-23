@@ -65,8 +65,8 @@
                 
                 <div class="d-flex flex-column mb-3">
                     <h5 class="font-weight-semi-bold mb-3">Main Showroom</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>141 & 142, Love Road, Tejgaon Industrial Area, Dhaka-1208, Bangladesh</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@aust.edu</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>141 & 142, Love Road,TIA, Dhaka-1208, Bangladesh</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>hello@littlehugs.com</p>
                     <p class="mb-2"><i class="fa fa-phone-alt text-primary mr-3"></i>+8802 8870422</p>
                 </div>
 
