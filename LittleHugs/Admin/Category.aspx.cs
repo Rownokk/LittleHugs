@@ -66,7 +66,7 @@ namespace LittleHugs.Admin
                     cmd.ExecuteNonQuery();
                     actionName = categoryId == 0 ? "inserted" : "updated";
                     lblMsg.Visible = true;
-                    lblMsg.Text = "Category" + actionName + "succesfully!";
+                    lblMsg.Text = "Category " + actionName + " succesfully!";
                     lblMsg.CssClass = "alert alert-success";
                 }
                 catch(Exception ex)
