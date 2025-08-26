@@ -303,11 +303,14 @@
     <Content Include="AdminTemplate\assets\images\users\8.jpg" />
     <Content Include="AdminTemplate\assets\images\users\agent.jpg" />
     <Content Include="AdminTemplate\assets\images\users\agent2.jpg" />
+    <Content Include="AdminTemplate\assets\images\users\authoi.jpg" />
     <Content Include="AdminTemplate\assets\images\users\d1.jpg" />
     <Content Include="AdminTemplate\assets\images\users\d2.jpg" />
     <Content Include="AdminTemplate\assets\images\users\d3.jpg" />
     <Content Include="AdminTemplate\assets\images\users\d4.jpg" />
     <Content Include="AdminTemplate\assets\images\users\d5.jpg" />
+    <Content Include="AdminTemplate\assets\images\users\jamila.jpg" />
+    <Content Include="AdminTemplate\assets\images\users\Mowmita.jpg" />
     <Content Include="AdminTemplate\assets\images\users\profile-pic-2.jpg" />
     <Content Include="AdminTemplate\assets\images\users\profile-pic.jpg" />
     <Content Include="AdminTemplate\assets\images\users\profile.png" />

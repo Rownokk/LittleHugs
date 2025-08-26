@@ -318,12 +318,11 @@
                                  <td class="border-top-0 px-2 py-4">
                                      <div class="d-flex no-block align-items-center">
                                          <div class="mr-3"><img
-                                                 src="assets/images/users/widget-table-pic1.jpg"
+                                                 src="../AdminTemplate/assets/images/users/Mowmita.jpg"
                                                  alt="user" class="rounded-circle" width="45"
                                                  height="45" /></div>
                                          <div class="">
-                                             <h5 class="text-dark mb-0 font-16 font-weight-medium">Hanna
-                                                 Gover</h5>
+                                             <h5 class="text-dark mb-0 font-16 font-weight-medium">Rownok Jahan Mowmita</h5>
                                              <span class="text-muted font-14">hgover@gmail.com</span>
                                          </div>
                                      </div>
@@ -355,12 +354,11 @@
                                  <td class="px-2 py-4">
                                      <div class="d-flex no-block align-items-center">
                                          <div class="mr-3"><img
-                                                 src="assets/images/users/widget-table-pic2.jpg"
+                                                 src="../AdminTemplate/assets/images/users/widget-table-pic2.jpg"
                                                  alt="user" class="rounded-circle" width="45"
                                                  height="45" /></div>
                                          <div class="">
-                                             <h5 class="text-dark mb-0 font-16 font-weight-medium">Daniel
-                                                 Kristeen
+                                             <h5 class="text-dark mb-0 font-16 font-weight-medium"> Mr. Haque
                                              </h5>
                                              <span class="text-muted font-14">Kristeen@gmail.com</span>
                                          </div>
@@ -388,12 +386,11 @@
                                  <td class="px-2 py-4">
                                      <div class="d-flex no-block align-items-center">
                                          <div class="mr-3"><img
-                                                 src="assets/images/users/widget-table-pic3.jpg"
+                                                 src="../AdminTemplate/assets/images/users/jamila.jpg"
                                                  alt="user" class="rounded-circle" width="45"
                                                  height="45" /></div>
                                          <div class="">
-                                             <h5 class="text-dark mb-0 font-16 font-weight-medium">Julian
-                                                 Josephs
+                                             <h5 class="text-dark mb-0 font-16 font-weight-medium">Umme Jamila
                                              </h5>
                                              <span class="text-muted font-14">Josephs@gmail.com</span>
                                          </div>
@@ -423,12 +420,11 @@
                                  <td class="px-2 py-4">
                                      <div class="d-flex no-block align-items-center">
                                          <div class="mr-3"><img
-                                                 src="assets/images/users/widget-table-pic4.jpg"
+                                                 src="../AdminTemplate/assets/images/users/authoi.jpg"
                                                  alt="user" class="rounded-circle" width="45"
                                                  height="45" /></div>
                                          <div class="">
-                                             <h5 class="text-dark mb-0 font-16 font-weight-medium">Jan
-                                                 Petrovic
+                                             <h5 class="text-dark mb-0 font-16 font-weight-medium">Authoi Chowdhury
                                              </h5>
                                              <span class="text-muted font-14">hgover@gmail.com</span>
                                          </div>
