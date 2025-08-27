@@ -1,6 +1,20 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="Category.aspx.cs" Inherits="LittleHugs.Admin.Category" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script type="text/javascript">
+        function ImagePreview(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    // Correct way to set ASP.NET Image src
+                    document.getElementById("<%= imagePreview.ClientID %>").src = e.target.result;
+                    document.getElementById("<%= imagePreview.ClientID %>").width = 200;
+                    document.getElementById("<%= imagePreview.ClientID %>").height = 200;
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -9,13 +23,14 @@
     </div>
 
     <div class="row">
-        <!-- Category Name Input -->
+        <!-- Category Input Section -->
         <div class="col-sm-12 col-md-4">
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Category</h4>
                     <hr />
                     <div class="form-body">
+
                         <!-- Category Name -->
                         <label for="txtCategoryName">Category Name</label>
                         <div class="row">
@@ -46,19 +61,20 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <asp:FileUpload ID="fuCategoryImage" runat="server" CssClass="form-control" />
+                                    <asp:FileUpload ID="fuCategoryImage" runat="server" CssClass="form-control" 
+                                        onchange="ImagePreview(this);" />
                                     <asp:HiddenField ID="hfCategoryId" runat="server" Value="0" />
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Image Preview 
+                        <!-- Image Preview -->
                         <label>Category Image Preview</label>
                         <div class="row mb-3">
                             <div class="col-md-12">
                                 <asp:Image ID="imagePreview" runat="server" Width="100" Height="100" />
                             </div>
-                        </div> -->
+                        </div>
 
                         <!-- IsActive -->
                         <div class="row">
