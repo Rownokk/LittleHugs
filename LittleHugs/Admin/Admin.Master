@@ -117,10 +117,10 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
-                                <img src="../AdminTemplate/assets/images/users/profile-pic.jpg" alt="user" class="rounded-circle"
+                                <img src="../AdminTemplate/assets/images/users/Mowmita.jpg" alt="user" class="rounded-circle"
                                     width="40">
                                 <span class="ml-2 d-none d-lg-inline-block"><span>Hello,</span> <span
-                                        class="text-dark">Jason Doe</span> <i data-feather="chevron-down"
+                                        class="text-dark">Admin👩‍💻</span> <i data-feather="chevron-down"
                                         class="svg-icon"></i></span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
@@ -459,8 +459,9 @@
 
     <!--Datatables JavaScript -->
     <script src="../AdminTemplate/datatables/js/jquery.dataTables.min.js"></script>
-    <script src="../AdminTemplate/datatables/js/dataTables.responsive.min.js"></script>
     <script src="../AdminTemplate/datatables/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="../AdminTemplate/datatables/js/dataTables.responsive.min.js"></script>
     <script src="../AdminTemplate/datatables/js/responsive.bootstrap4.min.js"></script>
 
      <!--Datatables Buttons For Export -->
@@ -468,9 +469,11 @@
     <script src="../AdminTemplate/datatables/js/buttons.bootstrap4.min.js"></script>
     <script src="../AdminTemplate/datatables/js/buttons.html5.min.js"></script>
     <script src="../AdminTemplate/datatables/js/buttons.flash.min.js"></script>
-    <script src="../AdminTemplate/datatables/js/vfs_fonts.js"></script>
     <script src="../AdminTemplate/datatables/js/buttons.print.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/jszip.min.js"></script>
     <script src="../AdminTemplate/datatables/js/pdfmake.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/vfs_fonts.js"></script>
+
 
     <!--Datatables Setting JS -->
     <script src="../AdminTemplate/datatables/js/datatable-setting.js"></script>
