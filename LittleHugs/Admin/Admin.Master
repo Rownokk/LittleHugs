@@ -19,6 +19,16 @@
     <link href="../AdminTemplate/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
     <!-- Custom CSS -->
     <link href="../AdminTemplate/dist/css/style.min.css" rel="stylesheet">
+    
+
+    <!-- Datatables CSS -->
+    <link href="../AdminTemplate/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="../AdminTemplate/datatables/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <link href="../AdminTemplate/datatables/css/icon-font.min.css" rel="stylesheet" />
+
+    <script src="../AdminTemplate/assets/libs/jquery/dist/jquery.min.js"></script>
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -428,7 +438,6 @@
     </form>
      <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="../AdminTemplate/assets/libs/jquery/dist/jquery.min.js"></script>
     <script src="../AdminTemplate/assets/libs/popper.js/dist/umd/popper.min.js"></script>
     <script src="../AdminTemplate/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- apps -->
@@ -448,5 +457,22 @@
     <script src="../AdminTemplate/assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
     <script src="../AdminTemplate/dist/js/pages/dashboards/dashboard1.min.js"></script>
 
+    <!--Datatables JavaScript -->
+    <script src="../AdminTemplate/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/dataTables.responsive.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/buttons.bootstrap4.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/responsive.bootstrap4.min.js"></script>
+
+     <!--Datatables Buttons For Export -->
+    <script src="../AdminTemplate/datatables/js/dataTables.buttons.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/buttons.bootstrap4.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/buttons.html5.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/buttons.flash.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/vfs_fonts.js"></script>
+    <script src="../AdminTemplate/datatables/js/buttons.print.min.js"></script>
+    <script src="../AdminTemplate/datatables/js/pdfmake.min.js"></script>
+
+    <!--Datatables Setting JS -->
+    <script src="../AdminTemplate/datatables/js/datatable-setting.js"></script>
 </body>
 </html>
